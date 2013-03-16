@@ -1,19 +1,24 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
-        <meta name="description" content="">
+        <title>Code For Africa</title>
+        <meta name="description" content="Code For Africa">
         <meta name="viewport" content="width=device-width">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        
+        <!--[if lt IE 9]>
+        	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/font-load.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <!--[if IE 7]>
@@ -23,6 +28,35 @@
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
         <script src="js/vendor/jquery-1.9.0.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        
+        <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script>
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+        
+        <style>
+        	
+        	h1, h2, h3, h4, h5, h6 {
+        		font-family: museo-slab,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        	}
+        	
+        	.partner-logos {
+        		text-align: center;
+        		vertical-align: middle;
+        	}
+        		.partner-logos img {
+        			height: 70px;
+        			padding: 10px;
+        		}
+        		.partner-logos img:hover {
+        			opacity: 0.8;
+        		}
+        		
+        </style>
+        
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -36,17 +70,48 @@
         	
         	<hr />
         	
+        	<div class="jumbotron">
+        		<div class="row">
+        			<div class="span8">
+        				<h1 style="">Active Citizenry</h1>
+        			</div>
+        			<div class="span4">
+        				
+        			</div>
+        		</div>
+        	</div>
+        	
+        	<div class="row">
+        		<div class="span4">
+        			
+        		</div>
+        		<div class="span4">
+        		</div>
+        		<div class="span4">
+        		</div>
+        	</div>
+        	
         </div>
+        
+        <footer class="container">
+        	
+        	<hr />
+        	
+        	<p class="partner-logos">
+        		<a href="http://africanmediainitiative.org" target="_blank"><img src="img/logos/ami.png" alt="African Media Initiative" style="height: 100px;"/></a>
+        		<a href="http://wbi.worldbank.org" target="_blank"><img src="img/logos/wb.png" alt="World Bank" style="height: 100px;"/></a>
+        		<a href="http://africannewschallenge.org" target="_blank"><img src="img/logos/anic.png" alt="African News Innovation Challenge" /></a>
+        		<a href="http://openinstitute.com" target="_blank"><img src="img/logos/oi.png" alt="Open Institute" /></a>
+        	</p>
+        	
+        	<hr />
+        	
+        	<p style="text-align: center;" class="muted">Built by <a href="http://openinstitute.com">Open Institute</a></p>
+        	
+        </footer>
         
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
     </body>
 </html>
