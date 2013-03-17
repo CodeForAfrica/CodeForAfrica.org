@@ -21,6 +21,7 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/font-load.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <!--[if IE 7]>
         <link rel="stylesheet" href="css/font-awesome-ie7.min.css">
@@ -56,6 +57,11 @@
         		text-shadow: 2px 2px 2px #333;
         		text-align: center;
         	}
+        		@media (max-width: 767px) {
+	        		#brief h1, #brief h2, #brief h3, #brief p {
+	        			padding: 0 15px;
+	        		}
+	        	}
         	
         	.partner-logos {
         		text-align: center;
@@ -85,7 +91,7 @@
         		
         		<div id="" style="text-align: center;">
         			
-        			<h1 style="font-size: 60px; line-height: 1;">We are launching soon</h1>
+        			<h1 style="font-size: 60px; line-height: 1;">We are launching soon!</h1>
         			<p class="lead" style="font-size: 32px; line-height: 1;">Sign up for updates</p>
         			
         			<!-- Begin MailChimp Signup Form -->
@@ -101,9 +107,9 @@
         			
         		</div>
         		
-        		<hr style="width: 400px; margin: 40px auto 30px; border-bottom: 0;"/>
+        		<hr style="max-width: 40%; margin: 40px auto 30px; border-bottom: 0;"/>
         		
-        		<div class="row" style="text-align: justify;">
+        		<div class="row" id="brief" style="text-align: justify;">
         			<div class="span4">
         				<h3>About Us</h3>
         				<p style="text-indent: 30px;">CodeForAfrica is building sustainable open data ecosystems in Africa. A key result envisioned by the program is the creation of culture, infrastructure, partnerships and applications that utilize open data from government as well as the private sector to solve challenges citizens grapple with.</p>
@@ -127,7 +133,7 @@
         	
         	<p class="lead" style="text-align: center;">Code4Africa is building out the infrastructure necessary for open data to flourish in African countries. This shared infrastructure includes projects like Open Africa, actNOW and openDuka which through their APIs will allow infomediaries to build services with local relevance.</p>
         	
-        	<hr style="width: 400px; margin: 30px auto 20px;"/>
+        	<hr style="max-width: 40%; margin: 30px auto 20px;"/>
         	
         	<div style="text-align: justify;">
         		<h3 style="text-align: center;">Open Data At Work</h3>
