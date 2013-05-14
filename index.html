@@ -14,7 +14,7 @@
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         
         <!--[if lt IE 9]>
-        	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
 
         <link rel="stylesheet" href="css/normalize.css">
@@ -39,44 +39,50 @@
         </script>
         
         <style>
-        	
-        	body {
-        		border-top: 5px solid #c04734;
-        		border-bottom: 5px solid #c04734;
-        		text-align: center;
-        	}
-        	
-        	h1, h2, h3, h4, h5, h6 {
-        		font-family: museo-slab,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        	}
-        	
-        	#myCaption {
-        		margin: 20px 0;
-        		padding: 40px 0;
-        		background: #ffffff url('img/bg-caption.png') no-repeat center center;
-        		background-size: cover;
-        		color: #ffffff;
-        		text-shadow: 2px 2px 2px #333;
-        		text-align: center;
-        	}
-        		@media (max-width: 767px) {
-	        		#brief h1, #brief h2, #brief h3, #brief p {
-	        			padding: 0 15px;
-	        		}
-	        	}
-        	
-        	.partner-logos {
-        		text-align: center;
-        		vertical-align: middle;
-        	}
-        		.partner-logos img {
-        			height: 70px;
-        			padding: 10px;
-        		}
-        		.partner-logos img:hover {
-        			opacity: 0.8;
-        		}
-        		
+          
+          body {
+            border-top: 5px solid #c04734;
+            border-bottom: 5px solid #c04734;
+            text-align: center;
+          }
+          
+          h1, h2, h3, h4, h5, h6 {
+            font-family: museo-slab,"Helvetica Neue",Helvetica,Arial,sans-serif;
+          }
+          
+          #myCaption {
+            margin: 20px 0;
+            padding: 40px 0;
+            background: #ffffff url('img/bg-caption.png') no-repeat center center;
+            background-size: cover;
+            color: #ffffff;
+            text-shadow: 2px 2px 2px #333;
+            text-align: center;
+          }
+            @media (max-width: 767px) {
+              #brief h1, #brief h2, #brief h3, #brief p {
+                padding: 0 15px;
+              }
+            }
+          
+			#code4all img{
+				height: 80px;
+				margin: 0 10px;
+				padding: 5px;
+			}
+			
+          .partner-logos {
+            text-align: center;
+            vertical-align: middle;
+          }
+            .partner-logos img {
+              height: 70px;
+              padding: 10px;
+            }
+            .partner-logos img:hover {
+              opacity: 0.8;
+            }
+            
         </style>
         
     </head>
@@ -87,116 +93,121 @@
 
         <!-- Add your site or application content here -->
         <div class="container">
-        	<p style="text-align: center;">
-        		<img src="img/logos/c4a.png" alt="Code For Africa" />
-        		
-        		<form class="form-inline validate visible-desktop" action="http://openinstitute.us6.list-manage.com/subscribe/post?u=65e5825507b3cec760f272e79&amp;id=c2ff751541" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate="" style="float: right; margin-top: -190px; padding: 10px 15px 20px; background-color: #eee; max-width: 240px;">
-        			<div class="response" id="mce-error-response" style="display:none"></div>
-        			<div class="response" id="mce-success-response" style="display:none"></div>
-        			<p style="display: inline-block;">The full <i>Code for Africa</i> website is still in development. Signup to be kept informed about updates and other news.</p><br />
-        			<input type="email" class="input-medium" placeholder="Email" value="" name="EMAIL" id="mce-EMAIL" required="">
-        			<button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-inverse">Submit</button>
-        		</form>
-        		
-        	</p>
-        	<form class="form-inline validate hidden-desktop" action="http://openinstitute.us6.list-manage.com/subscribe/post?u=65e5825507b3cec760f272e79&amp;id=c2ff751541" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate="" style="padding: 10px 20px 20px; background-color: #eee; max-width: 240px; display: inline-block; margin: 0 auto 20px;">
-        		<div class="response" id="mce-error-response" style="display:none"></div>
-        		<div class="response" id="mce-success-response" style="display:none"></div>
-        		<p style="display: inline-block;">The full <i>Code for Africa</i> website is still in development. Signup to be kept informed about updates and other news.</p><br />
-        		<input type="email" class="input-medium" placeholder="Email" value="" name="EMAIL" id="mce-EMAIL" required="">
-        		<button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-inverse">Submit</button>
-        	</form>
+          <p style="text-align: center;">
+            <img src="img/logos/c4a.png" alt="Code For Africa" />
+            
+            <form class="form-inline validate visible-desktop" action="http://openinstitute.us6.list-manage.com/subscribe/post?u=65e5825507b3cec760f272e79&amp;id=c2ff751541" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate="" style="float: right; margin-top: -190px; padding: 10px 15px 20px; background-color: #eee; max-width: 240px;">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+              <p style="display: inline-block;">The full <i>Code for Africa</i> website is still in development. Signup to be kept informed about updates and other news.</p><br />
+              <input type="email" class="input-medium" placeholder="Email" value="" name="EMAIL" id="mce-EMAIL" required="">
+              <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-inverse">Submit</button>
+            </form>
+            
+          </p>
+          <form class="form-inline validate hidden-desktop" action="http://openinstitute.us6.list-manage.com/subscribe/post?u=65e5825507b3cec760f272e79&amp;id=c2ff751541" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate="" style="padding: 10px 20px 20px; background-color: #eee; max-width: 240px; display: inline-block; margin: 0 auto 20px;">
+            <div class="response" id="mce-error-response" style="display:none"></div>
+            <div class="response" id="mce-success-response" style="display:none"></div>
+            <p style="display: inline-block;">The full <i>Code for Africa</i> website is still in development. Signup to be kept informed about updates and other news.</p><br />
+            <input type="email" class="input-medium" placeholder="Email" value="" name="EMAIL" id="mce-EMAIL" required="">
+            <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-inverse">Submit</button>
+          </form>
         </div>
         
         
         <div style="background-color: #eee; padding: 50px 0;">
-        	<div class="container">
-    			<h3>Open Data And Open Government Are Revolutionary</h3>
-    			
-    			<br />
-    			
-    			<p>They promise to change the power dynamics that govern our societies, giving ordinary citizens more and deeper information in real time, along with digital tools for engaging with fellow citizens and with those in positions of power.</p>
-    			
-    			<p>So, why are so few citizens using either the data or the tools -- despite generous funding and massive institutional support?</p>
-    			
-    			<p>The problem, <i>Code for Africa</i> believes, is an issue of supply versus demand. Much of the focus by the civic technology movement to date has been on governments and activists pushing data and services at citizens, rather than listening to what citizens really want or need. This tension is reflected in how we define the movement:</p>
-    			
-    			<br />
-    			
-    			<blockquote>
-	    			<p><b>civ·ic</b> <span class="muted">/ˈsivik/</span> Adjective</p>
-	    			<p>1. Of or relating to a city or town, esp. its administration; municipal.</p>
-	    			<p>2. Of or relating to the duties or activities of people in relation to their town, city, or local area.</p>
-    			</blockquote>
-    			
-    			<br />
-    			
-    			<p>Most open data and civic technology initiatives focus on the <span style="text-decoration: underline;">first</span> definition. They are government or activist / lobbyist led initiatives designed to strengthen government, to improve the quality of services provided to citizens.</p>
-    			
-    			<p><i>Code for Africa</i> seeks a different path. It embraces the <span style="text-decoration: underline;">second</span> definition, framing itself as a people-driven movement that aims to empower active citizenry and strengthen civic watchdogs to help government shape and improve its services to citizens.</p>
-    			
-    			<p>This approach is reflected in how <i>Code for Africa</i> is designed: the initiative is driven and co-funded by grassroots citizen organizations and the mass media and is focused primarily on building civic technology capacity within civil society and the watchdog media. <i>Code for Africa</i>'s current flagship programs include:</p>
-        	</div>
+          <div class="container">
+          <h3>Open Data And Open Government Are Revolutionary</h3>
+          
+          <br />
+          
+          <p>They promise to change the power dynamics that govern our societies, giving ordinary citizens more and deeper information in real time, along with digital tools for engaging with fellow citizens and with those in positions of power.</p>
+          
+          <p>So, why are so few citizens using either the data or the tools -- despite generous funding and massive institutional support?</p>
+          
+          <p>The problem, <i>Code for Africa</i> believes, is an issue of supply versus demand. Much of the focus by the civic technology movement to date has been on governments and activists pushing data and services at citizens, rather than listening to what citizens really want or need. This tension is reflected in how we define the movement:</p>
+          
+          <br />
+          
+          <blockquote>
+            <p><b>civ·ic</b> <span class="muted">/ˈsivik/</span> Adjective</p>
+            <p>1. Of or relating to a city or town, esp. its administration; municipal.</p>
+            <p>2. Of or relating to the duties or activities of people in relation to their town, city, or local area.</p>
+          </blockquote>
+          
+          <br />
+          
+          <p>Most open data and civic technology initiatives focus on the <span style="text-decoration: underline;">first</span> definition. They are government or activist / lobbyist led initiatives designed to strengthen government, to improve the quality of services provided to citizens.</p>
+          
+          <p><i>Code for Africa</i> seeks a different path. It embraces the <span style="text-decoration: underline;">second</span> definition, framing itself as a people-driven movement that aims to empower active citizenry and strengthen civic watchdogs to help government shape and improve its services to citizens.</p>
+          
+          <p>This approach is reflected in how <i>Code for Africa</i> is designed: the initiative is driven and co-funded by grassroots citizen organizations and the mass media and is focused primarily on building civic technology capacity within civil society and the watchdog media. <i>Code for Africa</i>'s current flagship programs include:</p>
+          </div>
         </div>
         
         <div class="container" style="margin: 50px auto;">
-        	<div class="row">
-        		<div class="span6">
-        			<h1 style="margin-bottom: -10px;"><i class="icon-magic"></i></h1>
-        			<h3>Data Liberation</h3>
-        			<p>Unlike North America or Europe, there is little open data freely available in Africa. And, where it is available, government data is often incomplete or skewed. A priority for <i>Code for Africa</i> is therefore to digitize and liberate data, turning 'deadwood' paper archives into a digital resource, or building APIs to access existing data. This includes going beyond government data, by hosting DataLiberation Scraperthons or supporting scraping projects such as <a href="http://openduka.org">openDUKA</a>, to unlock the knowledge held in academia, the media, civil society, and citizen groups.</p>
-        		</div>
-        		<div class="span6">
-        			<h1 style="margin-bottom: -10px;"><i class="icon-lightbulb"></i></h1>
-        			<h3>Data Skills</h3>
-        			<p>Data is meaningless if no-one knows how to use it. <i>Code for Africa</i> therefore brings together pioneers who are already supporting data training, ranging from large institutional partners such as the <a href="http://wbi.worldbank.org">World Bank</a>, to industry associations such as the <a href="http://africanmediainitiative.org">African Media Initiative</a>, trend-setting corporates such as <a href="http://google-africa.blogspot.com/">Google</a>, and grassroots user-groups such as <a href="http://www.meetup.com/HacksHackersAfrica/">Hacks/Hackers</a> to synchronize and amplify their programs. The partnerships includes evening seminars, more intensive policy roundtables, weeklong skills bootcamps, advanced masterclasses, and Code4Democracy hackathons.</p>
-        		</div>
-        	</div>
-        	<div class="row">
-        		<div class="span6">
-        			<h1 style="margin-bottom: -10px;"><i class="icon-group"></i></h1>
-        			<h3>Data Fellowships</h3>
-        			<p>Even once people have skills and data, it is still difficult to get organizations to change the way they operate. <i>Code for Africa</i> therefore embeds change agents, as <a href="http://code4kenya.org">Data Fellows</a>, in thought-leader media and civil society organizations. These Data Fellows serve as catalysts and enablers who help create the internal systems and resources necessary to entrench data as 'mission critical'. The fellowships are supported by external civic technology labs, and run for six months each. Each fellow builds proof-of-concept services / apps, and helps to develop internal policy, data platforms, and recruitment / staff strategies.</p>
-        		</div>
-        		<div class="span6">
-        			<h1 style="margin-bottom: -10px;"><i class="icon-wrench"></i></h1>
-        			<h3>Data Tools</h3>
-        			<p>The best way to convince people about the power and relevance of data, is to point them to some showcase tools or services that demonstrate pragmatic potential. <i>Code for Africa</i> therefore supports the development of citizen-driven solutions, such as the <a href="http://www.icfj.org/blogs/data-journalism-boosts-voter-registration-kenya">GotToVote</a> project in Kenya, or <a href="http://africannewschallenge.org/2012-winners/">actNOW and askAFRICA</a> projects in Ghana and South Africa. But, there is a real danger that scarce resources are wasted reinventing the wheel. <i>Code for Africa</i> therefore champions re-use and replication wherever appropriate, by supporting the work of pioneers such as <a href="http://www.mysociety.org/">mySociety</a> and others.</p>
-        		</div>
-        	</div>
+          <div class="row">
+            <div class="span6">
+              <h1 style="margin-bottom: -10px;"><i class="icon-magic"></i></h1>
+              <h3>Data Liberation</h3>
+              <p>Unlike North America or Europe, there is little open data freely available in Africa. And, where it is available, government data is often incomplete or skewed. A priority for <i>Code for Africa</i> is therefore to digitize and liberate data, turning 'deadwood' paper archives into a digital resource, or building APIs to access existing data. This includes going beyond government data, by hosting DataLiberation Scraperthons or supporting scraping projects such as <a href="http://openduka.org">openDUKA</a>, to unlock the knowledge held in academia, the media, civil society, and citizen groups.</p>
+            </div>
+            <div class="span6">
+              <h1 style="margin-bottom: -10px;"><i class="icon-lightbulb"></i></h1>
+              <h3>Data Skills</h3>
+              <p>Data is meaningless if no-one knows how to use it. <i>Code for Africa</i> therefore brings together pioneers who are already supporting data training, ranging from large institutional partners such as the <a href="http://wbi.worldbank.org">World Bank</a>, to industry associations such as the <a href="http://africanmediainitiative.org">African Media Initiative</a>, trend-setting corporates such as <a href="http://google-africa.blogspot.com/">Google</a>, and grassroots user-groups such as <a href="http://www.meetup.com/HacksHackersAfrica/">Hacks/Hackers</a> to synchronize and amplify their programs. The partnerships includes evening seminars, more intensive policy roundtables, weeklong skills bootcamps, advanced masterclasses, and Code4Democracy hackathons.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="span6">
+              <h1 style="margin-bottom: -10px;"><i class="icon-group"></i></h1>
+              <h3>Data Fellowships</h3>
+              <p>Even once people have skills and data, it is still difficult to get organizations to change the way they operate. <i>Code for Africa</i> therefore embeds change agents, as <a href="http://code4kenya.org">Data Fellows</a>, in thought-leader media and civil society organizations. These Data Fellows serve as catalysts and enablers who help create the internal systems and resources necessary to entrench data as 'mission critical'. The fellowships are supported by external civic technology labs, and run for six months each. Each fellow builds proof-of-concept services / apps, and helps to develop internal policy, data platforms, and recruitment / staff strategies.</p>
+            </div>
+            <div class="span6">
+              <h1 style="margin-bottom: -10px;"><i class="icon-wrench"></i></h1>
+              <h3>Data Tools</h3>
+              <p>The best way to convince people about the power and relevance of data, is to point them to some showcase tools or services that demonstrate pragmatic potential. <i>Code for Africa</i> therefore supports the development of citizen-driven solutions, such as the <a href="http://www.icfj.org/blogs/data-journalism-boosts-voter-registration-kenya">GotToVote</a> project in Kenya, or <a href="http://africannewschallenge.org/2012-winners/">actNOW and askAFRICA</a> projects in Ghana and South Africa. But, there is a real danger that scarce resources are wasted reinventing the wheel. <i>Code for Africa</i> therefore champions re-use and replication wherever appropriate, by supporting the work of pioneers such as <a href="http://www.mysociety.org/">mySociety</a> and others.</p>
+            </div>
+          </div>
         </div>
-        	
-    	<div style="background-color: #eee; padding: 50px 0;">
-    		<div class="container">
-    			<h2>Africa Is Not A Country</h2>
-    			<p>The continent is made up of one billion people living in 54 nations with wide variation in economic and government systems, with further differentiation by language, religion, and shared history. <i>Code for Africa</i> is therefore a 'federated' umbrella for a series of national and/or thematic initiatives, including:</p>
-    			<p class="lead">Code for Ghana   |   Code for Kenya   |   Code for Nigeria   |   Code for South Africa</p>
-    			<p>Additional initiatives are being incubated, for possible launch in late 2013, in Morocco, Tanzania, Tunisia, and Uganda.</p>
-    		</div>
-    	</div>
-        	
+          
+      <div style="background-color: #eee; padding: 50px 0;">
+        <div class="container">
+          <h2>Africa Is Not A Country</h2>
+          <p>The continent is made up of one billion people living in 54 nations with wide variation in economic and government systems, with further differentiation by language, religion, and shared history. <i>Code for Africa</i> is therefore a 'federated' umbrella for a series of national and/or thematic initiatives, including:</p>
+          <p class="lead" id="code4all">
+				<img src="/img/logos/code4all/ghana.png" alt="Ghana"/>
+				<img src="/img/logos/code4all/kenya.png" alt="Kenya"/>
+				<img src="/img/logos/code4all/nigeria.png" alt="Nigeria"/>
+				<img src="/img/logos/code4all/southafrica.png" alt="South Africa"/>
+		  </p>
+          <p>Additional initiatives are being incubated, for possible launch in late 2013, in Morocco, Tanzania, Tunisia, and Uganda.</p>
+        </div>
+      </div>
+          
         <div class="container" style="margin: 50px auto;">
-        	        	
-        	<h2>AfricanCommons</h2>
-        	<p>It is important to tie together all the ingenuity, knowledge, and resources being created by the <i>Code for Africa</i> community and their counterparts in the <a href="http://codeforamerica.org/">Americas</a> and <a href="http://codeforeurope.net/">Europe</a> community. We are therefore supporting a global effort to strengthen the <a href="http://commons.codeforamerica.org/">CivicCommons</a> platform, by evolving it beyond its current life as a simple catalogue into a dynamic community portal.</p>
-        	<p>In addition to working on CivicCommons, <i>Code for Africa</i> is building other shared resources, including the continent's largest repository of open data, <a href="http://africaopendata.org">openAFRICA</a>.</p>
-        	
+                    
+          <h2>AfricanCommons</h2>
+          <p>It is important to tie together all the ingenuity, knowledge, and resources being created by the <i>Code for Africa</i> community and their counterparts in the <a href="http://codeforamerica.org/">Americas</a> and <a href="http://codeforeurope.net/">Europe</a> community. We are therefore supporting a global effort to strengthen the <a href="http://commons.codeforamerica.org/">CivicCommons</a> platform, by evolving it beyond its current life as a simple catalogue into a dynamic community portal.</p>
+          <p>In addition to working on CivicCommons, <i>Code for Africa</i> is building other shared resources, including the continent's largest repository of open data, <a href="http://africaopendata.org">openAFRICA</a>.</p>
+          
         </div>
         
         <div style="background-color: #eee; padding: 50px 0;">
-        	<div class="container">
-	        	<h2>Partnerships</h2>
-	        	<p>Achieving Open Data and Open Government on a continental level is a mammoth task. <i>Code for Africa</i> is therefore deliberately designed as a vehicle for partnerships, to allow for shared knowledge and collaborative solutions, driven by thematic champions and diverse approaches. <i>Code for Africa</i>'s founding partners are:</p>
-	        	<br />
-	        	<p class="partner-logos">
-	        		<a href="http://africanmediainitiative.org" target="_blank"><img src="img/logos/ami.png" alt="African Media Initiative" style="height: 100px;"/></a>
-	        		<a href="http://wbi.worldbank.org" target="_blank"><img src="img/logos/wb.png" alt="World Bank" style="height: 100px;"/></a>
-	        		<a href="http://africannewschallenge.org" target="_blank"><img src="img/logos/anic.png" alt="African News Innovation Challenge" /></a>
-	        		<br />
-	        		<a href="http://icjf.org" target="_blank"><img src="img/logos/icfj_2.png" alt="ICFJ" style="height: 80px;"/></a>
-	        		<a href="http://openinstitute.com" target="_blank"><img src="img/logos/oi-logo.png" alt="Open Institute" /></a>
-	        	</p>
-	        </div>
+          <div class="container">
+            <h2>Partnerships</h2>
+            <p>Achieving Open Data and Open Government on a continental level is a mammoth task. <i>Code for Africa</i> is therefore deliberately designed as a vehicle for partnerships, to allow for shared knowledge and collaborative solutions, driven by thematic champions and diverse approaches. <i>Code for Africa</i>'s founding partners are:</p>
+            <br />
+            <p class="partner-logos">
+              <a href="http://africanmediainitiative.org" target="_blank"><img src="img/logos/ami.png" alt="African Media Initiative" style="height: 100px;"/></a>
+              <a href="http://wbi.worldbank.org" target="_blank"><img src="img/logos/wb.png" alt="World Bank" style="height: 100px;"/></a>
+              <a href="http://africannewschallenge.org" target="_blank"><img src="img/logos/anic.png" alt="African News Innovation Challenge" /></a>
+              <br />
+              <a href="http://icjf.org" target="_blank"><img src="img/logos/icfj_2_1.png" alt="ICFJ" style="height: 80px;"/></a>
+              <a href="http://openinstitute.com" target="_blank"><img src="img/logos/oi-logo.png" alt="Open Institute" style="height: 70px;"  /></a>
+            </p>
+          </div>
         </div>
         
         <script src="js/plugins.js"></script>
