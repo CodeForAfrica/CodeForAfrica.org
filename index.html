@@ -42,7 +42,6 @@
           
           body {
             border-top: 5px solid #c04734;
-            border-bottom: 5px solid #c04734;
             text-align: center;
           }
           
@@ -73,6 +72,15 @@
 		  .citizenlab .lead{
 		  	margin-bottom: 10px;
 		  }
+		  .citizenlab img{
+			filter: url("data:image/svg+xml;utf8,&lt;svg xmlns=\'http://www.w3.org/2000/svg\'&gt;&lt;filter id=\'grayscale\'&gt;&lt;feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale"); /* Firefox 10+, Firefox on Android */
+			filter: gray; /* IE6-9 */
+			-webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+		  }
+		  	.citizenlab img:hover {
+		  		filter: none;
+		  		-webkit-filter: none;
+		  	}
 			
           .partner-logos {
             text-align: center;
@@ -85,6 +93,14 @@
             .partner-logos img:hover {
               opacity: 0.8;
             }
+          
+          footer a {
+          	color: #fff;
+          }
+          	footer a:hover {
+          		color: #333;
+          		text-decoration: none;
+          	}
             
         </style>
         
@@ -144,38 +160,41 @@
           
           <p><i>Code for Africa</i> seeks a different path. It embraces the <span style="text-decoration: underline;">second</span> definition, framing itself as a people-driven movement that aims to empower active citizenry and strengthen civic watchdogs to help government shape and improve its services to citizens.</p>
           
-          <p>This approach is reflected in how <i>Code for Africa</i> is designed: the initiative is driven and co-funded by grassroots citizen organizations and the mass media and is focused primarily on building civic technology capacity within civil society and the watchdog media. <i>Code for Africa</i>'s current flagship programs include:</p>
+          <p>This approach is reflected in how <i>Code for Africa</i> is designed: the initiative is driven and co-funded by grassroots citizen organizations and the mass media and is focused primarily on building civic technology capacity within civil society and the watchdog media. Here is a quick overview of <i>Code for Africa</i>'s current activities and priorities:</p>
           </div>
         </div>
         
-        <div class="container" style="margin: 50px auto;">
-        	<iframe src="https://docs.google.com/presentation/d/1tikM9N56R76z9xL9LQPQYbV9G8xLf7kOB1n2n_cAOsQ/embed?start=true&loop=true&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        <div class="clearfix" style="background: #e6001c;">
+        <div class="container" style="margin: 20px auto;">
+        	<iframe src="http://www.slideshare.net/slideshow/embed_code/23156923?rel=0" width="512" height="421" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;" allowfullscreen> </iframe>
+        </div>
         </div>
         
         <div style="background-color: #eee; padding: 50px 0;">
         <div class="container">
+          <p class="lead">Some of <i>Code for Africa</i>'s flagship programs include:</p>
           <div class="row">
             <div class="span6">
               <h1 style="margin-bottom: -10px;"><i class="icon-magic"></i></h1>
               <h3>Data Liberation</h3>
-              <p>Unlike North America or Europe, there is little open data freely available in Africa. And, where it is available, government data is often incomplete or skewed. A priority for <i>Code for Africa</i> is therefore to digitize and liberate data, turning 'deadwood' paper archives into a digital resource, or building APIs to access existing data. This includes going beyond government data, by hosting DataLiberation Scraperthons or supporting scraping projects such as <a href="http://openduka.org">openDUKA</a>, to unlock the knowledge held in academia, the media, civil society, and citizen groups.</p>
+              <p>Unlike North America or Europe, there is little open data freely available in Africa. And, where it is available, government data is often incomplete or skewed. A priority for <i>Code for Africa</i> is therefore to digitize and liberate data, turning 'deadwood' paper archives into a digital resource, or building APIs to access existing data. This includes going beyond government data, by hosting DataLiberation Scraperthons or supporting scraping projects such as <a href="https://docs.openafrica.net/search/" target="_blank">sourceAFRICA</a>, to unlock the knowledge held in academia, the media, civil society, and citizen groups.</p>
             </div>
             <div class="span6">
               <h1 style="margin-bottom: -10px;"><i class="icon-lightbulb"></i></h1>
               <h3>Data Skills</h3>
-              <p>Data is meaningless if no-one knows how to use it. <i>Code for Africa</i> therefore brings together pioneers who are already supporting data training, ranging from large institutional partners such as the <a href="http://wbi.worldbank.org">World Bank</a>, to industry associations such as the <a href="http://africanmediainitiative.org">African Media Initiative</a>, trend-setting corporates such as <a href="http://google-africa.blogspot.com/">Google</a>, and grassroots user-groups such as <a href="http://www.meetup.com/HacksHackersAfrica/">Hacks/Hackers</a> to synchronize and amplify their programs. The partnerships includes evening seminars, more intensive policy roundtables, weeklong skills bootcamps, advanced masterclasses, and Code4Democracy hackathons.</p>
+              <p>Data is meaningless if no-one knows how to use it. <i>Code for Africa</i> therefore brings together pioneers who are already supporting data training, ranging from large institutional partners such as the <a href="http://wbi.worldbank.org" target="_blank">World Bank</a>, to industry associations such as the <a href="http://africanmediainitiative.org" target="_blank">African Media Initiative</a>, trend-setting corporates such as <a href="http://google-africa.blogspot.com/" target="_blank">Google</a>, and grassroots user-groups such as <a href="https://www.facebook.com/HacksHackersAfrica" target="_blank">Hacks/Hackers</a> to synchronize and amplify their programs. The partnerships includes evening seminars, more intensive policy roundtables, weeklong skills bootcamps, advanced masterclasses, and Code4Democracy hackathons.</p>
             </div>
           </div>
           <div class="row">
             <div class="span6">
               <h1 style="margin-bottom: -10px;"><i class="icon-group"></i></h1>
               <h3>Data Fellowships</h3>
-              <p>Even once people have skills and data, it is still difficult to get organizations to change the way they operate. <i>Code for Africa</i> therefore embeds change agents, as <a href="http://code4kenya.org">Data Fellows</a>, in thought-leader media and civil society organizations. These Data Fellows serve as catalysts and enablers who help create the internal systems and resources necessary to entrench data as 'mission critical'. The fellowships are supported by external civic technology labs, and run for six months each. Each fellow builds proof-of-concept services / apps, and helps to develop internal policy, data platforms, and recruitment / staff strategies.</p>
+              <p>Even once people have skills and data, it is still difficult to get organizations to change the way they operate. <i>Code for Africa</i> therefore embeds change agents, as <a href="http://bit.ly/C4SouthAfrica" target="_blank">Data Fellows</a>, in thought-leader media and civil society organizations. These Data Fellows serve as catalysts and enablers who help create the internal systems and resources necessary to entrench data as 'mission critical'. The fellowships are supported by external civic technology labs, and run for between six and 12 months. Each fellow builds proof-of-concept services / apps, and helps to develop internal policy, data platforms, and recruitment / staff strategies.</p>
             </div>
             <div class="span6">
               <h1 style="margin-bottom: -10px;"><i class="icon-wrench"></i></h1>
               <h3>Data Tools</h3>
-              <p>The best way to convince people about the power and relevance of data, is to point them to some showcase tools or services that demonstrate pragmatic potential. <i>Code for Africa</i> therefore supports the development of citizen-driven solutions, such as the <a href="http://www.icfj.org/blogs/data-journalism-boosts-voter-registration-kenya">GotToVote</a> project in Kenya, or <a href="http://africannewschallenge.org/2012-winners/">actNOW and askAFRICA</a> projects in Ghana and South Africa. But, there is a real danger that scarce resources are wasted reinventing the wheel. <i>Code for Africa</i> therefore champions re-use and replication wherever appropriate, by supporting the work of pioneers such as <a href="http://www.mysociety.org/">mySociety</a> and others.</p>
+              <p>The best way to convince people about the power and relevance of data, is to point them to some showcase tools or services that demonstrate pragmatic potential. <i>Code for Africa</i> therefore supports the development of citizen-driven solutions, such as the <a href="http://www.icfj.org/blogs/data-journalism-boosts-voter-registration-kenya" target="_blank">GotToVote</a> toolkit that has already been used in Kenya, Malawi &amp; Zimbabwe, or the <a href="http://africannewschallenge.org/2012-winners/" target="_blank">actNOW and askAFRICA</a> projects in Ghana and South Africa. But, there is a real danger that scarce resources are wasted reinventing the wheel. <i>Code for Africa</i> therefore champions re-use and replication wherever appropriate, by supporting the work of pioneers such as <a href="http://www.mysociety.org/" target="_blank">mySociety</a> and <a href="http://okfn.org" target="_blank">Open Knowledge Foundation</a> and others.</p>
             </div>
           </div>
         </div>
@@ -191,7 +210,7 @@
 				<img src="img/logos/code4all/nigeria.png" alt="Nigeria"/>
 				<a href="http://code4sa.org" target="_blank"><img src="img/logos/code4all/southafrica.png" alt="South Africa"/></a>
 		  </p>
-          <p>Additional initiatives are being incubated, for possible launch in late 2013, in Morocco, Tanzania, Tunisia, and Uganda.</p>
+          <p>Additional initiatives are being incubatedincubated, for launch in 2014 2013, in Morocco, Rwanda, Senegal, Tanzania, Tunisia, and Uganda.</p>
         </div>
       	</div>
         
@@ -199,8 +218,8 @@
         <div class="container" >
                     
           <h2>AfricanCommons</h2>
-          <p>It is important to tie together all the ingenuity, knowledge, and resources being created by the <i>Code for Africa</i> community and their counterparts in the <a href="http://codeforamerica.org/">Americas</a> and <a href="http://codeforeurope.net/">Europe</a> community. We are therefore supporting a global effort to strengthen the <a href="http://commons.codeforamerica.org/">CivicCommons</a> platform, by evolving it beyond its current life as a simple catalogue into a dynamic community portal.</p>
-          <p>In addition to working on CivicCommons, <i>Code for Africa</i> is building other shared resources, including the continent's largest repository of open data, <a href="http://africaopendata.org">openAFRICA</a>.</p>
+          <p>It is important to tie together all the ingenuity, knowledge, and resources being created by the <i>Code for Africa</i> community and their counterparts in the <a href="http://codeforamerica.org/" target="_blank">Americas</a> and <a href="http://codeforeurope.net/" target="_blank">Europe</a> and <a href="http://www.opendatalatinoamerica.org/home/" target="_blank">Latin America</a>. We are therefore supporting a global effort to strengthen the <a href="http://commons.codeforamerica.org/" target="_blank">CivicCommons</a> platform, by helping evolve the project beyond its current life as a simple catalogue into a dynamic community portal.</p>
+          <p>In addition to working on CivicCommons, <i>Code for Africa</i> is building other shared resources, including the continent's largest repository of open data, <a href="http://africaopendata.org" target="_blank">openAFRICA</a> plus a repository of 'liberated' documents at <a href="https://docs.openafrica.net/search/" target="_blank">sourceAFRICA</a>, and of civic code at <a href="https://github.com/CodeForAfrica" target="_blank">codeAFRICA</a>.</p>
           
         </div>
         </div>
@@ -209,15 +228,16 @@
         <div class="container" >
                     
           <h2>Projects</h2>
+          <p>Rhetoric is easy. It is what you actually do that counts. Some of the early prototypes that Code for Africa has helped grassroots partners build or deploy include:</p><br />
           <ul class="thumbnails">
             <li class="span3">
             	<div class="thumbnail">
-            		<a href="http://openafrica.net" target="_blank">
-            				<img alt="" src="img/projects/openafrica.png">
+            		<a href="http://starhealth.code4kenya.org" target="_blank">
+            				<img alt="" src="img/projects/starhealth.png">
             			</a>
-                	<h3>openAFRICA.net</h3>
-                	<p>The continent's largest volunteer-run open data repository.</p>
-                	<p><a href="http://openafrica.net" class="btn btn-primary">Go To Site</a></p>
+                	<h3>StarHealth</h3>
+                	<p>Keeping the health sector accountable to citizens.</p>
+                	<p><a href="http://starhealth.code4kenya.org" target="_blank" class="btn btn-primary">Go To Site</a></p>
               	</div>
             </li>
             <li class="span3">
@@ -226,8 +246,18 @@
             				<img alt="" src="img/projects/gtv.png">
             			</a>
                 	<h3>GotToVote</h3>
-                	<p>Getting citizens to the voting booths informed.</p>
-                	<p><a href="http://gottovote.co.ke" class="btn btn-primary">Go To Site</a></p>
+                	<p>Getting citizens registered and to the ballot box.</p>
+                	<p><a href="http://gottovote.co.ke" target="_blank" class="btn btn-primary">Go To Site</a></p>
+              	</div>
+            </li>
+            <li class="span3">
+            	<div class="thumbnail">
+            		<a href="http://openbylaws.org.za/" target="_blank">
+            				<img alt="" src="img/projects/obl.png">
+            			</a>
+                	<h3>OpenByLaws</h3>
+                	<p>Making city government laws accessible.</p>
+                	<p><a href="http://openbylaws.org.za/" target="_blank" class="btn btn-primary">Go To Site</a></p>
               	</div>
             </li>
             <li class="span3">
@@ -236,20 +266,54 @@
             				<img alt="" src="img/projects/wmmd.png">
             			</a>
                 	<h3>WhereMyMoneyDey</h3>
-                	<p>Farmers keeping mining companies accountable.</p>
-                	<p><a href="http://wmmd.codeforafrica.org" class="btn btn-primary">Go To Site</a></p>
+                	<p>Helping villagers to keep conglomerate companies honest.</p>
+                	<p><a href="http://wmmd.codeforafrica.org" target="_blank" class="btn btn-primary">Go To Site</a></p>
               	</div>
             </li>
-            <li class="span3">
-            	<div class="thumbnail">
-            		<a href="http://starhealth.code4kenya.org" target="_blank">
-            				<img alt="" src="img/projects/starhealth.png">
-            			</a>
-                	<h3>StarHealth</h3>
-                	<p>Making health sector information accessible.</p>
-                	<p><a href="http://starhealth.code4kenya.org" class="btn btn-primary">Go To Site</a></p>
-              	</div>
-            </li>
+            
+          </ul>
+          <hr style="margin-top: 0;"/>
+          <ul class="thumbnails">
+          	<li class="span3">
+          		<div class="thumbnail">
+          			<a href="http://openafrica.net" target="_blank">
+          					<img alt="" src="img/projects/openafrica.png">
+          				</a>
+          	    	<h3>openAFRICA.net</h3>
+          	    	<p>The continent's largest volunteer-run open data repository.</p>
+          	    	<p><a href="http://openafrica.net" target="_blank" class="btn btn-primary">Go To Site</a></p>
+          	  	</div>
+          	</li>
+          	<li class="span3">
+          		<div class="thumbnail">
+          			<a href="http://findmyschool.co.ke" target="_blank">
+          					<img alt="" src="img/projects/fmske.png">
+          				</a>
+          	    	<h3>FindMySchool</h3>
+          	    	<p>Helping parents monitor school performance.</p>
+          	    	<p><a href="http://findmyschool.co.ke" target="_blank" class="btn btn-primary">Go To Site</a></p>
+          	  	</div>
+          	</li>
+          	<li class="span3">
+          		<div class="thumbnail">
+          			<a href="http://mpr.code4sa.org/" target="_blank">
+          					<img alt="" src="img/projects/mpr.png">
+          				</a>
+          	    	<h3>MedicinePrices</h3>
+          	    	<p>Shining a light on medicine and medical prices.</p>
+          	    	<p><a href="http://mpr.code4sa.org/" target="_blank" class="btn btn-primary">Go To Site</a></p>
+          	  	</div>
+          	</li>
+          	<li class="span3">
+          		<div class="thumbnail">
+          			<a href="http://storymaker.cc" target="_blank">
+          					<img alt="" src="img/projects/sm.png">
+          				</a>
+          	    	<h3>StoryMaker</h3>
+          	    	<p>Giving citizens a voice through secure channels.</p>
+          	    	<p><a href="http://storymaker.cc" target="_blank" class="btn btn-primary">Go To Site</a></p>
+          	  	</div>
+          	</li>
           </ul>
           
         </div>
@@ -258,8 +322,11 @@
         <div style="background-color: #eee; padding: 50px 0;"> 
         <div class="container" >
                     
-          <h2>CitizenLab</h2> <br />
+          <h2>CitizenLab</h2> 
+          <p>Technology should be accessible. Code for Africa therefore bases its teams in public tech hubs or incubators, as CitizenLabs, where citizens or journalists can walk in for help or to share space to build their own projects. Code for Africa's core team works from the Kenyan CitizenLab, at <a href="http://goo.gl/SKzeZV">88mph</a>. Pop in to chat or code with us.</p>
+          <br />
           <div class="row citizenlab">
+          	
           	<div class="span1"></div>
           	<div class="span2">
           		<p><img src="img/team/david.png" alt="" class="img-circle"/></p>
@@ -282,7 +349,7 @@
           		<p><b>Developer</b></p>
           	</div>
           	<div class="span2">
-          		<p><img src="img/team/serah1.jpg" alt="" class="img-circle"/></p>
+          		<p><img src="img/team/serah.jpg" alt="" class="img-circle"/></p>
           		<p class="lead">Serah Njambi</p>
           		<p><b>Developer</b></p>
           	</div>
@@ -303,15 +370,41 @@
               
               <br />
               <a href="http://okfn.org" target="_blank"><img src="img/logos/okfn.png" alt="Open Knowledge Foundation" style="height: 80px;"/></a>
-              <a href="http://praekelt.org" target="_blank"><img src="img/logos/praekelt.png" alt="Praekelt Foundation" style="height: 50px;"/></a>
+              <a href="http://praekeltfoundation.org" target="_blank"><img src="img/logos/praekelt.png" alt="Praekelt Foundation" style="height: 50px;"/></a>
+              <a href="http://www.webfoundation.org/" target="_blank"><img src="img/logos/wwwf.gif" alt="World Wide Web Foundation" style="height: 70px;"/></a>
               
               <br />
               <a href="http://africannewschallenge.org" target="_blank"><img src="img/logos/anic.png" alt="African News Innovation Challenge" /></a>
+              <a href="https://www.facebook.com/HacksHackersAfrica" target="_blank"><img src="img/logos/hha.gif" alt="HHA" style="height: 80px;"/></a>
               <a href="http://investigativecenters.org" target="_blank"><img src="img/logos/ancir.png" alt="ANCIR" style="height: 50px;"/></a>
-              <a href="http://hackshackersafrica.org" target="_blank"><img src="img/logos/hha.gif" alt="HHA" style="height: 80px;"/></a>
+              
             </p>
           </div>
         </div>
+        
+        <footer class="clearfix" style="background: #c04734; color: #fff;">
+        	<div class="container" style="margin: 20px auto;">
+        		<div class="row">
+        			<div class="span4" style="text-align: left;">
+        				<p>Built With Thought-<br />Leadership From:</p>
+        				<p><a href="http://icjf.org" target="_blank"><img src="img/logos/icfj-square.jpg" alt="" style="height: 80px;"/></a></p>
+        			</div>
+        			<div class="span4">
+        				<p>
+        					<br /> - 
+        					<a href="mailto:info@codeforafrica.org" target="_blank">Email</a> - 
+        					<a href="http://twitter.com/code4africa" target="_blank">Twitter</a> - 
+        					<a href="http://slideshare.com/JustinArenstein/code-for-africa" target="_blank">SlideShare</a> - 
+        					<a href="http://github.com/CodeForAfrica" target="_blank">GitHub</a> -
+        				</p>
+        			</div>
+        			<div class="span4" style="text-align: right;">
+        				<p>Seed-Funded &amp; <br />Incubated By:</p>
+        				<p><a href="http://africanmediainitiative.org" target="_blank"><img src="img/logos/ami.png" alt="" style="height: 80px; background: #fff;"/></a></p>
+        			</div>
+        		</div>
+        	</div>
+        </footer>
         
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
