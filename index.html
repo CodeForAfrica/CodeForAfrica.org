@@ -62,6 +62,12 @@
               #brief h1, #brief h2, #brief h3, #brief p {
                 padding: 0 15px;
               }
+			  body {
+				padding: 0;
+			  }
+			  .container {
+				padding: 0 20px;
+			  }
             }
           
 			#code4all img{
@@ -76,10 +82,13 @@
 			filter: url("data:image/svg+xml;utf8,&lt;svg xmlns=\'http://www.w3.org/2000/svg\'&gt;&lt;filter id=\'grayscale\'&gt;&lt;feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale"); /* Firefox 10+, Firefox on Android */
 			filter: gray; /* IE6-9 */
 			-webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+			max-width: 150px;
+			z-index: 1;
 		  }
 		  	.citizenlab img:hover {
 		  		filter: none;
 		  		-webkit-filter: none;
+				z-index: 999;
 		  	}
 			
           .partner-logos {
@@ -166,7 +175,8 @@
         
         <div class="clearfix" style="background: #e6001c;">
         <div class="container" style="margin: 20px auto;">
-        	<iframe src="http://www.slideshare.net/slideshow/embed_code/23156923?rel=0" width="512" height="421" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;" allowfullscreen> </iframe>
+        	<iframe src="http://www.slideshare.net/slideshow/embed_code/23156923?rel=0" class="" width="512" height="421" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0; max-width: 98%; margin-bottom:0;" allowfullscreen> </iframe>
+        	<p class="visible-phone"></p>
         </div>
         </div>
         
@@ -210,7 +220,7 @@
 				<img src="img/logos/code4all/nigeria.png" alt="Nigeria"/>
 				<a href="http://code4sa.org" target="_blank"><img src="img/logos/code4all/southafrica.png" alt="South Africa"/></a>
 		  </p>
-          <p>Additional initiatives are being incubatedincubated, for launch in 2014 2013, in Morocco, Rwanda, Senegal, Tanzania, Tunisia, and Uganda.</p>
+          <p>Additional initiatives are being incubated, for launch in 2014, in Morocco, Rwanda, Senegal, Tanzania, Tunisia, and Uganda.</p>
         </div>
       	</div>
         
@@ -228,7 +238,7 @@
         <div class="container" >
                     
           <h2>Projects</h2>
-          <p>Rhetoric is easy. It is what you actually do that counts. Some of the early prototypes that Code for Africa has helped grassroots partners build or deploy include:</p><br />
+          <p>Rhetoric is easy. It is what you actually do that counts. Some of the early prototypes that <i>Code for Africa</i> has helped grassroots partners build or deploy include:</p><br />
           <ul class="thumbnails">
             <li class="span3">
             	<div class="thumbnail">
@@ -265,7 +275,7 @@
             		<a href="http://wmmd.codeforafrica.org" target="_blank">
             				<img alt="" src="img/projects/wmmd.png">
             			</a>
-                	<h3>WhereMyMoneyDey</h3>
+                	<h3>Where My Money Dey</h3>
                 	<p>Helping villagers to keep conglomerate companies honest.</p>
                 	<p><a href="http://wmmd.codeforafrica.org" target="_blank" class="btn btn-primary">Go To Site</a></p>
               	</div>
@@ -279,7 +289,7 @@
           			<a href="http://openafrica.net" target="_blank">
           					<img alt="" src="img/projects/openafrica.png">
           				</a>
-          	    	<h3>openAFRICA.net</h3>
+          	    	<h3>openAFRICA</h3>
           	    	<p>The continent's largest volunteer-run open data repository.</p>
           	    	<p><a href="http://openafrica.net" target="_blank" class="btn btn-primary">Go To Site</a></p>
           	  	</div>
@@ -289,7 +299,7 @@
           			<a href="http://findmyschool.co.ke" target="_blank">
           					<img alt="" src="img/projects/fmske.png">
           				</a>
-          	    	<h3>FindMySchool</h3>
+          	    	<h3>Find My School</h3>
           	    	<p>Helping parents monitor school performance.</p>
           	    	<p><a href="http://findmyschool.co.ke" target="_blank" class="btn btn-primary">Go To Site</a></p>
           	  	</div>
@@ -299,7 +309,7 @@
           			<a href="http://mpr.code4sa.org/" target="_blank">
           					<img alt="" src="img/projects/mpr.png">
           				</a>
-          	    	<h3>MedicinePrices</h3>
+          	    	<h3>Medicine Prices</h3>
           	    	<p>Shining a light on medicine and medical prices.</p>
           	    	<p><a href="http://mpr.code4sa.org/" target="_blank" class="btn btn-primary">Go To Site</a></p>
           	  	</div>
@@ -323,12 +333,11 @@
         <div class="container" >
                     
           <h2>CitizenLab</h2> 
-          <p>Technology should be accessible. Code for Africa therefore bases its teams in public tech hubs or incubators, as CitizenLabs, where citizens or journalists can walk in for help or to share space to build their own projects. Code for Africa's core team works from the Kenyan CitizenLab, at <a href="http://goo.gl/SKzeZV">88mph</a>. Pop in to chat or code with us.</p>
+          <p>Technology should be accessible. <i>Code for Africa</i> therefore bases its teams in public tech hubs or incubators, as CitizenLabs, where citizens or journalists can walk in for help or to share space to build their own projects. <i>Code for Africa</i>'s core team works from the Kenyan CitizenLab, at <a href="http://goo.gl/SKzeZV">88mph</a>. Pop in to chat or code with us.</p>
           <br />
-          <div class="row citizenlab">
-          	
+          <div class="row citizenlab hidden-phone">
           	<div class="span1"></div>
-          	<div class="span2">
+			<div class="span2">
           		<p><img src="img/team/david.png" alt="" class="img-circle"/></p>
           		<p class="lead">David Lemayian</p>
           		<p><b>Tech Lead</b></p>
@@ -354,6 +363,34 @@
           		<p><b>Developer</b></p>
           	</div>
           </div>
+		  <div class="row citizenlab visible-phone">
+          	<div class="span1"></div>
+			<div class="span2">
+          		<p><img src="img/team/justin.png" alt="" class="img-circle"/></p>
+          		<p class="lead">Justin Arenstein</p>
+          		<p><b>Chief Strategist</b></p>
+          	</div>
+          	<div class="span2">
+          		<p><img src="img/team/nqobile.png" alt="" class="img-circle"/></p>
+          		<p class="lead">Nqobile Sibisi</p>
+          		<p><b>Program Manager</b></p>
+          	</div>
+          	<div class="span2">
+          		<p><img src="img/team/david.png" alt="" class="img-circle"/></p>
+          		<p class="lead">David Lemayian</p>
+          		<p><b>Tech Lead</b></p>
+          	</div>
+          	<div class="span2">
+          		<p><img src="img/team/nick.png" alt="" class="img-circle"/></p>
+          		<p class="lead">Nick Hargreaves</p>
+          		<p><b>Developer</b></p>
+          	</div>
+          	<div class="span2">
+          		<p><img src="img/team/serah.jpg" alt="" class="img-circle"/></p>
+          		<p class="lead">Serah Njambi</p>
+          		<p><b>Developer</b></p>
+          	</div>
+           </div>
           
         </div>
         </div>
@@ -384,7 +421,7 @@
         
         <footer class="clearfix" style="background: #c04734; color: #fff;">
         	<div class="container" style="margin: 20px auto;">
-        		<div class="row">
+        		<div class="row hidden-phone">
         			<div class="span4" style="text-align: left;">
         				<p>Built With Thought-<br />Leadership From:</p>
         				<p><a href="http://icjf.org" target="_blank"><img src="img/logos/icfj-square.jpg" alt="" style="height: 80px;"/></a></p>
@@ -403,6 +440,29 @@
         				<p><a href="http://africanmediainitiative.org" target="_blank"><img src="img/logos/ami.png" alt="" style="height: 80px; background: #fff;"/></a></p>
         			</div>
         		</div>
+				<div class="visible-phone">
+					<p>
+    					 - 
+    					<a href="mailto:info@codeforafrica.org" target="_blank">Email</a> - 
+    					<a href="http://twitter.com/code4africa" target="_blank">Twitter</a> - 
+    					<a href="http://slideshare.com/JustinArenstein/code-for-africa" target="_blank">SlideShare</a> - 
+    					<a href="http://github.com/CodeForAfrica" target="_blank">GitHub</a>
+						- <br /><br />
+    				</p>
+					<table style="width:100%">
+						<tr>
+							<td style="width:49%; text-align: left;">
+								<p>Built With Thought-<br />Leadership From:</p>
+		        				<p><a href="http://icjf.org" target="_blank"><img src="img/logos/icfj-square.jpg" alt="" style="height: 80px;"/></a></p>
+							</td>
+							<td style="width:2%;"></td>
+							<td style="width:49%; text-align: right;">
+								<p>Seed-Funded &amp; <br />Incubated By:</p>
+		        				<p><a href="http://africanmediainitiative.org" target="_blank"><img src="img/logos/ami.png" alt="" style="height: 80px; background: #fff;"/></a></p>
+							</td>
+						</tr>
+					</table>
+				</div>
         	</div>
         </footer>
         
