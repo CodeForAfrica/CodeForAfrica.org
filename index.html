@@ -9,6 +9,7 @@
         <title>Code for Africa</title>
         <meta name="description" content="Code for Africa is a citizen-focused, demand-driven movement that seeks to empower ordinary people to hold those in power to account.">
         <meta name="viewport" content="width=device-width">
+        <meta name="google-site-verification" content="EEqfmu2QDO2NT-G6oFzhAk8YoBPbXva8H7SqKssfixM" />
         <link rel="icon" href="favicon.png" type="image/png" />
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -23,6 +24,7 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/custom.css">
         <!--[if IE 7]>
         <link rel="stylesheet" href="css/font-awesome-ie7.min.css">
         <![endif]-->
@@ -37,81 +39,6 @@
             g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)}(document,'script'));
         </script>
-
-        <style>
-
-          body {
-            border-top: 5px solid #c04734;
-            text-align: center;
-          }
-
-          h1, h2, h3, h4, h5, h6 {
-            font-family: museo-slab,"Helvetica Neue",Helvetica,Arial,sans-serif;
-          }
-
-          #myCaption {
-            margin: 20px 0;
-            padding: 40px 0;
-            background: #ffffff url('img/bg-caption.png') no-repeat center center;
-            background-size: cover;
-            color: #ffffff;
-            text-shadow: 2px 2px 2px #333;
-            text-align: center;
-          }
-            @media (max-width: 767px) {
-              #brief h1, #brief h2, #brief h3, #brief p {
-                padding: 0 15px;
-              }
-			  body {
-				padding: 0;
-			  }
-			  .container {
-				padding: 0 20px;
-			  }
-            }
-
-			#code4all img{
-				height: 80px;
-				margin: 0 10px;
-				padding: 5px;
-			}
-		  .citizenlab .lead{
-		  	margin-bottom: 10px;
-		  }
-		  .citizenlab img{
-			filter: url("data:image/svg+xml;utf8,&lt;svg xmlns=\'http://www.w3.org/2000/svg\'&gt;&lt;filter id=\'grayscale\'&gt;&lt;feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale"); /* Firefox 10+, Firefox on Android */
-			filter: gray; /* IE6-9 */
-			-webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
-			max-width: 150px;
-			z-index: 1;
-		  }
-		  	.citizenlab img:hover {
-		  		filter: none;
-		  		-webkit-filter: none;
-				z-index: 999;
-		  	}
-
-          .partner-logos {
-            text-align: center;
-            vertical-align: middle;
-          }
-            .partner-logos img {
-              height: 70px;
-              padding: 10px;
-            }
-            .partner-logos img:hover {
-              opacity: 0.8;
-            }
-
-          footer a {
-          	color: #fff;
-          }
-          	footer a:hover {
-          		color: #333;
-          		text-decoration: none;
-          	}
-
-        </style>
 
     </head>
     <body>
@@ -419,23 +346,24 @@
           </div>
         </div>
 
-        <footer class="clearfix" style="background: #c04734; color: #fff;">
-        	<div class="container" style="margin: 20px auto;">
+        <footer class="clearfix" style="background: #c04734; color: #fff; padding: 20px 0;">
+        	<div class="container">
         		<div class="row hidden-phone">
-        			<div class="span4" style="text-align: left;">
+        			<div class="span3" style="text-align: left;">
         				<p>Built With Thought-<br />Leadership From:</p>
-        				<p><a href="http://icjf.org" target="_blank"><img src="img/logos/icfj-square.jpg" alt="" style="height: 80px;"/></a></p>
+        				<p><a href="http://icfj.org" target="_blank"><img src="img/logos/icfj-square.jpg" alt="" style="height: 80px;"/></a></p>
         			</div>
-        			<div class="span4">
-        				<p>
-        					<br /> -
-        					<a href="mailto:info@codeforafrica.org" target="_blank">Email</a> -
-        					<a href="http://twitter.com/code4africa" target="_blank">Twitter</a> -
-        					<a href="http://slideshare.com/JustinArenstein/code-for-africa" target="_blank">SlideShare</a> -
-        					<a href="http://github.com/CodeForAfrica" target="_blank">GitHub</a> -
-        				</p>
+        			<div class="span6">
+      					<h3>Get in touch!</h3>
+      					<p>
+      						<a href="mailto:info@codeforafrica.org" target="_blank"><i class="icon-envelope icon-3x"></i></a>
+      						<span style="width:20px; display: inline-block;"></span>
+      						<a href="http://twitter.com/code4africa" target="_blank"><i class="icon-twitter icon-3x"></i></a>
+      						<span style="width:20px; display: inline-block;"></span>
+      						<a href="http://github.com/CodeForAfrica" target="_blank"><i class="icon-github icon-3x"></i></a>
+      					</p>
         			</div>
-        			<div class="span4" style="text-align: right;">
+        			<div class="span3" style="text-align: right;">
         				<p>Seed-Funded &amp; <br />Incubated By:</p>
         				<p><a href="http://africanmediainitiative.org" target="_blank"><img src="img/logos/ami.png" alt="" style="height: 80px; background: #fff;"/></a></p>
         			</div>
@@ -453,7 +381,7 @@
 						<tr>
 							<td style="width:49%; text-align: left;">
 								<p>Built With Thought-<br />Leadership From:</p>
-		        				<p><a href="http://icjf.org" target="_blank"><img src="img/logos/icfj-square.jpg" alt="" style="height: 80px;"/></a></p>
+		        				<p><a href="http://icfj.org" target="_blank"><img src="img/logos/icfj-square.jpg" alt="" style="height: 80px;"/></a></p>
 							</td>
 							<td style="width:2%;"></td>
 							<td style="width:49%; text-align: right;">
@@ -468,6 +396,17 @@
 
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+
+        <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-44795600-5', 'codeforafrica.org');
+        ga('send', 'pageview');
+
+        </script>
 
     </body>
 </html>
