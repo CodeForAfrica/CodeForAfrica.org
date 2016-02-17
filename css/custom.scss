@@ -51,11 +51,12 @@ h1, h2, h3, h4, h5, h6 {
 .partner-logos img {
     height: 80px;
     padding: 10px;
+    max-width: 100%;
+    &:hover {
+      opacity: 0.8;  
+    }
 }
 
-.partner-logos img:hover {
-    opacity: 0.8;
-}
 
 footer {
     background: #005bb0;
