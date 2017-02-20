@@ -1,117 +1,56 @@
-PRIVACY STATEMENT
+## Code for Africa Terms of Service and Privacy Policy
 
-----
+### 1\. Terms
 
-SECTION 1 - WHAT DO WE DO WITH YOUR INFORMATION?
+By accessing the website at [https://codeforafrica.org](https://codeforafrica.org), you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law.
 
-When you purchase something from our store, as part of the buying and selling process, we collect the personal information you give us such as your name, address and email address.
+### 2\. Use License
 
-When you browse our store, we also automatically receive your computer’s internet protocol (IP) address in order to provide us with information that helps us learn about your browser and operating system.
+1.  Permission is granted to temporarily download one copy of the materials (information or software) on Code for Africa's website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:
+    1.  modify or copy the materials;
+    2.  use the materials for any commercial purpose, or for any public display (commercial or non-commercial);
+    3.  attempt to decompile or reverse engineer any software contained on Code for Africa's website;
+    4.  remove any copyright or other proprietary notations from the materials; or
+    5.  transfer the materials to another person or "mirror" the materials on any other server.
+2.  This license shall automatically terminate if you violate any of these restrictions and may be terminated by Code for Africa at any time. Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession whether in electronic or printed format.
 
-Email marketing (if applicable): With your permission, we may send you emails about our store, new products and other updates.
+### 3\. Disclaimer
 
+1.  The materials on Code for Africa's website are provided on an 'as is' basis. Code for Africa makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.
+2.  Further, Code for Africa does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its website or otherwise relating to such materials or on any sites linked to this site.
 
-SECTION 2 - CONSENT
+### 4\. Limitations
 
-How do you get my consent?
+In no event shall Code for Africa or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on Code for Africa's website, even if Code for Africa or a Code for Africa authorized representative has been notified orally or in writing of the possibility of such damage. Because some jurisdictions do not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not apply to you.
 
-When you provide us with personal information to complete a transaction, verify your credit card, place an order, arrange for a delivery or return a purchase, we imply that you consent to our collecting it and using it for that specific reason only.
+### 5\. Accuracy of materials
 
-If we ask for your personal information for a secondary reason, like marketing, we will either ask you directly for your expressed consent, or provide you with an opportunity to say no.
+The materials appearing on Code for Africa's website could include technical, typographical, or photographic errors. Code for Africa does not warrant that any of the materials on its website are accurate, complete or current. Code for Africa may make changes to the materials contained on its website at any time without notice. However Code for Africa does not make any commitment to update the materials.
 
+### 6\. Links
 
-How do I withdraw my consent?
+Code for Africa has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by Code for Africa of the site. Use of any such linked website is at the user's own risk.
 
-If after you opt-in, you change your mind, you may withdraw your consent for us to contact you, for the continued collection, use or disclosure of your information, at anytime, by contacting us at info@codeforafrica.org or mailing us at: Code for Africa Ideas Cartel, 113 Loop Street 3rd Floor, Cape Town, WC, 8000, South Africa
+### 7\. Modifications
 
+Code for Africa may revise these terms of service for its website at any time without notice. By using this website you are agreeing to be bound by the then current version of these terms of service.
 
-SECTION 3 - DISCLOSURE
+### 8\. Governing Law
 
-We may disclose your personal information if we are required by law to do so or if you violate our Terms of Service.
+These terms and conditions are governed by and construed in accordance with the laws of Ideas Cartel, 113 Loop Street 3rd Floor, Cape Town, Western Cape, 8000, South Africa and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.
 
+## Privacy Policy
 
-SECTION 4 - SHOPIFY
+Your privacy is important to us.
 
-Our store is hosted on Shopify Inc. They provide us with the online e-commerce platform that allows us to sell our products and services to you.
+It is Code for Africa's policy to respect your privacy regarding any information we may collect while operating our website. Accordingly, we have developed this privacy policy in order for you to understand how we collect, use, communicate, disclose and otherwise make use of personal information. We have outlined our privacy policy below.
 
-Your data is stored through Shopify’s data storage, databases and the general Shopify application. They store your data on a secure server behind a firewall.
+*   We will collect personal information by lawful and fair means and, where appropriate, with the knowledge or consent of the individual concerned.
+*   Before or at the time of collecting personal information, we will identify the purposes for which information is being collected.
+*   We will collect and use personal information solely for fulfilling those purposes specified by us and for other ancillary purposes, unless we obtain the consent of the individual concerned or as required by law.
+*   Personal data should be relevant to the purposes for which it is to be used, and, to the extent necessary for those purposes, should be accurate, complete, and up-to-date.
+*   We will protect personal information by using reasonable security safeguards against loss or theft, as well as unauthorized access, disclosure, copying, use or modification.
+*   We will make readily available to customers information about our policies and practices relating to the management of personal information.
+*   We will only retain personal information for as long as necessary for the fulfilment of those purposes.
 
-
-Payment:
-
-If you choose a direct payment gateway to complete your purchase, then Shopify stores your credit card data. It is encrypted through the Payment Card Industry Data Security Standard (PCI-DSS). Your purchase transaction data is stored only as long as is necessary to complete your purchase transaction. After that is complete, your purchase transaction information is deleted.
-
-All direct payment gateways adhere to the standards set by PCI-DSS as managed by the PCI Security Standards Council, which is a joint effort of brands like Visa, MasterCard, American Express and Discover.
-
-PCI-DSS requirements help ensure the secure handling of credit card information by our store and its service providers.
-
-For more insight, you may also want to read Shopify’s Terms of Service here or Privacy Statement here.
-
-
-SECTION 5 - THIRD-PARTY SERVICES
-
-
-In general, the third-party providers used by us will only collect, use and disclose your information to the extent necessary to allow them to perform the services they provide to us.
-
-However, certain third-party service providers, such as payment gateways and other payment transaction processors, have their own privacy policies in respect to the information we are required to provide to them for your purchase-related transactions.
-
-For these providers, we recommend that you read their privacy policies so you can understand the manner in which your personal information will be handled by these providers.
-
-In particular, remember that certain providers may be located in or have facilities that are located in a different jurisdiction than either you or us. So if you elect to proceed with a transaction that involves the services of a third-party service provider, then your information may become subject to the laws of the jurisdiction(s) in which that service provider or its facilities are located.
-
-As an example, if you are located in Canada and your transaction is processed by a payment gateway located in the United States, then your personal information used in completing that transaction may be subject to disclosure under United States legislation, including the Patriot Act.
-
-Once you leave our store’s website or are redirected to a third-party website or application, you are no longer governed by this Privacy Policy or our website’s Terms of Service.
-
-
-Links
-
-When you click on links on our store, they may direct you away from our site. We are not responsible for the privacy practices of other sites and encourage you to read their privacy statements.
-
-
-SECTION 6 - SECURITY
-
-To protect your personal information, we take reasonable precautions and follow industry best practices to make sure it is not inappropriately lost, misused, accessed, disclosed, altered or destroyed.
-
-If you provide us with your credit card information, the information is encrypted using secure socket layer technology (SSL) and stored with a AES-256 encryption.  Although no method of transmission over the Internet or electronic storage is 100% secure, we follow all PCI-DSS requirements and implement additional generally accepted industry standards.
-
-
-COOKIES
-
-Here is a list of cookies that we use. We’ve listed them here so you can choose if you want to opt-out of cookies or not.
-
-_session_id, unique token, sessional, Allows Shopify to store information about your session (referrer, landing page, etc).
-
-_shopify_visit, no data held, Persistent for 30 minutes from the last visit, Used by our website provider’s internal stats tracker to record the number of visits
-
-_shopify_uniq, no data held, expires midnight (relative to the visitor) of the next day, Counts the number of visits to a store by a single customer.
-
-cart, unique token, persistent for 2 weeks, Stores information about the contents of your cart.
-
-_secure_session_id, unique token, sessional
-
-storefront_digest, unique token, indefinite If the shop has a password, this is used to determine if the current visitor has access.
-
-
-
-SECTION 7 - AGE OF CONSENT
-
-By using this site, you represent that you are at least the age of majority in your state or province of residence, or that you are the age of majority in your state or province of residence and you have given us your consent to allow any of your minor dependents to use this site.
-
-
-SECTION 8 - CHANGES TO THIS PRIVACY POLICY
-
-We reserve the right to modify this privacy policy at any time, so please review it frequently. Changes and clarifications will take effect immediately upon their posting on the website. If we make material changes to this policy, we will notify you here that it has been updated, so that you are aware of what information we collect, how we use it, and under what circumstances, if any, we use and/or disclose it.
-
-If our store is acquired or merged with another company, your information may be transferred to the new owners so that we may continue to sell products to you.
-
-
-QUESTIONS AND CONTACT INFORMATION
-
-If you would like to: access, correct, amend or delete any personal information we have about you, register a complaint, or simply want more information contact our Privacy Compliance Officer at info@codeforafrica.org or by mail at Code for Africa
-
-[Re: Privacy Compliance Officer]
-
-[Ideas Cartel, 113 Loop Street 3rd Floor, Cape Town, WC, 8000, South Africa]
-
-----
+We are committed to conducting our business in accordance with these principles in order to ensure that the confidentiality of personal information is protected and maintained. Code for Africa may change this privacy policy from time to time at Code for Africa's sole discretion.
