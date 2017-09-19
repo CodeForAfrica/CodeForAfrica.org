@@ -2,7 +2,7 @@
 
 ### 1\. Terms
 
-By accessing the website at [https://codeforafrica.org](https://codeforafrica.org), you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law.
+By accessing any of [Code for Africa's](https://codeforafrica.org/) services, websites, or data, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law.
 
 ### 2\. Use License
 
@@ -37,7 +37,7 @@ Code for Africa may revise these terms of service for its website at any time wi
 
 ### 8\. Governing Law
 
-These terms and conditions are governed by and construed in accordance with the laws of Ideas Cartel, 113 Loop Street 3rd Floor, Cape Town, Western Cape, 8000, South Africa and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.
+These terms and conditions are governed by and construed in accordance with the laws of South Africa and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.
 
 ## Privacy Policy
 
