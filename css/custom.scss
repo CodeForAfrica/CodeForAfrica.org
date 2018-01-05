@@ -3,75 +3,84 @@
 ---
 
 body {
-    border-top: 5px solid #e6001c;
+  border-top: 5px solid #e6001c;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: museo-slab, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: museo-slab, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+img {
+  max-width: 100%;
 }
 
 #myCaption {
-    margin: 20px 0;
-    padding: 40px 0;
-    background: #ffffff url('img/bg-caption.png') no-repeat center center;
-    background-size: cover;
-    color: #ffffff;
-    text-shadow: 2px 2px 2px #333;
-    text-align: center;
+  margin: 20px 0;
+  padding: 40px 0;
+  background: #ffffff url('img/bg-caption.png') no-repeat center center;
+  background-size: cover;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px #333;
+  text-align: center;
 }
 
-.code4all img {
+.code4all{ 
+  img {
     max-height: 80px;
     margin: 0 10px;
     padding: 5px;
+  }
+  .col-md-3 {
+    height: 80px;
+  }
 }
 
 .citizenlab .lead {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .citizenlab img {
-    filter: url("data:image/svg+xml;utf8,&lt;svg xmlns=\'http://www.w3.org/2000/svg\'&gt;&lt;filter id=\'grayscale\'&gt;&lt;feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale"); /* Firefox 10+, Firefox on Android */
-    filter: gray; /* IE6-9 */
-    -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
-    max-width: 100%;
-    width: 150px;
-    z-index: 1;
+  filter: url("data:image/svg+xml;utf8,&lt;svg xmlns=\'http://www.w3.org/2000/svg\'&gt;&lt;filter id=\'grayscale\'&gt;&lt;feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale"); /* Firefox 10+, Firefox on Android */
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+  max-width: 100%;
+  width: 150px;
+  z-index: 1;
 }
 
 .citizenlab img:hover {
-    filter: none;
-    -webkit-filter: none;
-    z-index: 999;
+  filter: none;
+  -webkit-filter: none;
+  z-index: 999;
 }
 
 .partner-logos {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 .partner-logos img {
-    height: 80px;
-    padding: 10px;
-    max-width: 100%;
-    &:hover {
-      opacity: 0.8;  
-    }
+  height: 80px;
+  padding: 10px;
+  max-width: 100%;
+  &:hover {
+    opacity: 0.8;  
+  }
 }
 
 
 footer {
-    background: #005bb0;
+  background: #005bb0;
+  color: #fff;
+  padding: 20px 0;
+  a {
     color: #fff;
-    padding: 20px 0;
-    a {
-        color: #fff;
-        &:hover {
-            color: #000;
-            text-decoration: none;
-        }
-        i {
-            margin: 10px;
-        }
+    &:hover {
+      color: #000;
+      text-decoration: none;
     }
+    i {
+      margin: 10px;
+    }
+  }
 
 }
