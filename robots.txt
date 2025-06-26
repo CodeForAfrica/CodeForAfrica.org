@@ -1,3 +1,66 @@
-# robotstxt.org/
+# ChatGPT-User
+User-agent: ChatGPT-User
+Disallow: /
 
-User-agent: *
+# Amazonbot
+User-agent: Amazonbot
+Disallow: /
+
+# Applebot
+User-agent: Applebot
+Disallow: /
+
+# PerplexityBot
+User-agent: PerplexityBot
+Disallow: /
+
+# Bytespider
+User-agent: Bytespider
+Disallow: /
+
+# CCBot
+User-agent: CCBot
+Disallow: /
+
+# ClaudeBot
+User-agent: ClaudeBot
+Disallow: /
+
+# Diffbot
+User-agent: Diffbot
+Disallow: /
+
+# FacebookBot
+User-agent: FacebookBot
+Disallow: /
+
+# Google-Extended
+User-agent: Google-Extended
+Disallow: /
+
+# GPTBot
+User-agent: GPTBot
+Disallow: /
+
+# Applebot-Extended
+User-agent: Applebot-Extended
+Disallow: /
+
+# omgili
+User-agent: omgili
+Disallow: /
+
+# anthropic-ai
+User-agent: anthropic-ai
+Disallow: /
+
+# Claude-Web
+User-agent: Claude-Web
+Disallow: /
+
+# cohere-ai
+User-agent: cohere-ai
+Disallow: /
+
+
+# Generatedy by RoboShield (https://roboshield.trustlab.africa)
