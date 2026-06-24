@@ -1,0 +1,19 @@
+<svg viewBox="0 0 110 110" xmlns="http://www.w3.org/2000/svg" aria-label="Plus" role="img">
+  <g fill="#1020e1">
+    <!-- top vertical arms (rows 0-2) -->
+    <rect x="30" y="0" width="20" height="30"/>
+    <rect x="60" y="0" width="20" height="30"/>
+    <!-- middle horizontal bars (rows 3-4) -->
+    <rect x="0" y="30" width="50" height="20"/>
+    <rect x="60" y="30" width="50" height="20"/>
+    <!-- middle horizontal bars (rows 6-7) -->
+    <rect x="0" y="60" width="50" height="20"/>
+    <rect x="60" y="60" width="50" height="20"/>
+    <!-- bottom-left vertical arm (rows 8-10) -->
+    <rect x="30" y="80" width="20" height="30"/>
+  </g>
+  <g fill="#e6232f">
+    <!-- bottom-right vertical arm (rows 8-10) — red accent -->
+    <rect x="60" y="80" width="20" height="30"/>
+  </g>
+</svg>
